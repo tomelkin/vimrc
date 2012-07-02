@@ -10,6 +10,8 @@ set incsearch
 set autoindent
 set expandtab "to replace tabs with spaces
 set hidden
+set ts=2
+set sw=2
 
 "set guifont=Anonymous\ 11
 "set lsp=1 "line spacing...
