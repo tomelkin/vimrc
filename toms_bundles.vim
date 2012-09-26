@@ -22,6 +22,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/L9'
 Bundle 'FuzzyFinder'
 Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required!
 "
