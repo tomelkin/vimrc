@@ -28,12 +28,6 @@ let g:CommandTMaxHeight = 15
 
 set wildignore+=vendor/bundle_gems/ruby/1.8/gems/**
 
-"Show trailing Whitespaces
-autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-autocmd BufRead,InsertLeave * match ExtraWhitespace /\s\+$/
-highlight ExtraWhitespace ctermbg=red guibg=red
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-
 " Settings for VimClojure
 let vimclojure#HighlightBuiltins=1      " Highlight Clojure's builtins
 let vimclojure#ParenRainbow=1           " Rainbow parentheses'!
