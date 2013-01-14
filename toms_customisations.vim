@@ -7,6 +7,7 @@ set foldlevelstart=99
 syntax on
 
 set incsearch
+set ignorecase
 set autoindent
 set expandtab "to replace tabs with spaces
 set hidden
