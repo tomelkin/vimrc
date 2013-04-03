@@ -18,12 +18,10 @@ Bundle 'tpope/vim-repeat'
 Bundle 'scrooloose/nerdtree'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
-" L9 plugin is a dependency of FuzzyFinder
-Bundle 'vim-scripts/L9'
-Bundle 'FuzzyFinder'
-Bundle 'git://git.wincent.com/command-t.git'
-Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/ZoomWin'
+" L9 plugin is a dependency of FuzzyFinder
+Bundle 'vim-scripts/L9' 
+Bundle 'FuzzyFinder'
 
 filetype plugin indent on     " required!
 "
