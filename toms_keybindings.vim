@@ -5,6 +5,7 @@ map <C-h> <C-w>h
 map <C-l> <C-w>l
 map <C-c> <C-w>c
 
+map <Leader><Leader> :ZoomWin<CR>
 nmap <D-BS> :bd<CR>
 nmap <D-e> :NERDTreeToggle<CR>
 nmap <Leader>gf :NERDTreeFind<CR>
@@ -21,6 +22,7 @@ silent! nmap <unique> <silent> <Leader>b :CommandTBuffer<CR>
 nmap <silent> <Leader>fb :FufBuffer<CR>
 nmap <silent> <Leader>ft :FufTaggedFile<CR>
 nmap <silent> <Leader>fl :FufLine<CR>
+
 " nmap <silent> <Leader>fd :FufDirWithCurrentBufferDir<CR>
 
 " map <F2> :.s/^"\(.*\)"$/\1/<CR>:.!xmllint --format - 2> /dev/null<CR>
