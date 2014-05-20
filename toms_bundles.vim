@@ -24,6 +24,11 @@ Bundle 'groenewege/vim-less'
 Bundle 'vim-scripts/L9' 
 Bundle 'FuzzyFinder'
 
+" Clojure bundles
+Bundle "tpope/vim-fireplace"
+Bundle "guns/vim-clojure-static"
+Bundle "kien/rainbow_parentheses.vim"
+
 filetype plugin indent on     " required!
 "
 " Brief help
