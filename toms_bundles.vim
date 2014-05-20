@@ -19,6 +19,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/ZoomWin'
+Bundle 'groenewege/vim-less'
 " L9 plugin is a dependency of FuzzyFinder
 Bundle 'vim-scripts/L9' 
 Bundle 'FuzzyFinder'
