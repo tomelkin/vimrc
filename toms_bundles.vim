@@ -9,7 +9,7 @@ Bundle 'gmarik/vundle'
 
 " original repos on github
 Bundle 'tpope/vim-fugitive'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'tristen/vim-sparkup.git'
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-endwise'
